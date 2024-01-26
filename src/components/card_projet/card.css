@@ -1,10 +1,22 @@
 .card {
-    width: 500px !important;
-    overflow: hidden;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 50px;
-    background-color: white
+    width: 400px !important; /* Largeur personnalisée */
+    height: 300px; /* Hauteur personnalisée */
+    padding: 20px; /* Ajustement du rembourrage */
+    margin: 10px; /* Ajustement de la marge */
+    background-color: white; /* Couleur de fond */
+    border-radius: 10px; /* Bord arrondi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+.card img {
+    max-width: 100%; /* Assurez-vous que l'image s'adapte à la largeur de la carte */
+    max-height: 100%; /* Assurez-vous que l'image s'adapte à la hauteur de la carte */
+}
+
+.card h2 {
+    font-size: 24px; /* Ajustement de la taille de la police pour le titre */
+}
+
+.card p {
+    font-size: 16px; /* Ajustement de la taille de la police pour la description */
 }

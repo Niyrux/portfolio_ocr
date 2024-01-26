@@ -1,17 +1,18 @@
 .containerCard {
     display: flex;
     gap: 0 100px;
-    width:3000px ;
-    max-width: none;
-    overflow: hidden;
-    height: 100vh !important;
+    width: auto; /* Ajustez la largeur automatiquement */
+    overflow-x: hidden; /* Activer le défilement horizontal */
+    overflow-y: hidden; /* Masquer le défilement vertical */
     padding: 50px;
     background: red;
 }
+
 .pin-spacer {
-    background:red
-}
-body {
-    overflow-x: hidden;
+    background: red;
 }
 
+body {
+    /* Supprimez overflow-x: hidden; pour activer le défilement horizontal */
+    overflow-y: auto; /* Activer le défilement vertical */
+}

@@ -1,0 +1,41 @@
+.container-header {
+    max-width: 1366px;
+    margin: auto;
+    padding: 0 50px;
+}
+
+.HeaderResp {
+    display: none;
+}
+
+.HeaderResp.visible {
+    display: flex;
+}
+
+.img {
+    width: 30px ;
+    display: none;
+    }
+
+    .Header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Header img{
+        width: 50px;
+    }
+
+    .Header a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+

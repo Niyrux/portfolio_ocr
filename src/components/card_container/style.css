@@ -1,0 +1,17 @@
+.containerCard {
+    display: flex;
+    gap: 0 100px;
+    width:3000px ;
+    max-width: none;
+    overflow: hidden;
+    height: 100vh !important;
+    padding: 50px;
+    background: red;
+}
+.pin-spacer {
+    background:red
+}
+body {
+    overflow-x: hidden;
+}
+

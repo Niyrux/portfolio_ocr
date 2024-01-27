@@ -1,18 +1,16 @@
 .containerCard {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 0 100px;
-    width: auto; /* Ajustez la largeur automatiquement */
-    overflow-x: hidden; /* Activer le défilement horizontal */
-    overflow-y: hidden; /* Masquer le défilement vertical */
-    padding: 50px;
-    background: red;
 }
 
 .pin-spacer {
     background: red;
+    padding: 50px !important;
+
 }
 
 body {
-    /* Supprimez overflow-x: hidden; pour activer le défilement horizontal */
-    overflow-y: auto; /* Activer le défilement vertical */
+   overflow-x: hidden; 
+    overflow-y: auto; 
 }

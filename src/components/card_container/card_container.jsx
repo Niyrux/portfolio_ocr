@@ -9,10 +9,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 function Cardcontainer() {
   useGSAP(() => {
-    let sections = gsap.utils.toArray(".card");
+    let cards = gsap.utils.toArray(".card");
 
-    gsap.to(sections, {
-      xPercent: -100 * (sections.length - 1),
+    gsap.to(cards, {
+      xPercent: -100 * (cards.length - 1),
       ease: "none", 
       scrollTrigger: {
         trigger: ".containerCard",
@@ -20,7 +20,7 @@ function Cardcontainer() {
         scrub: true,
         invalidateOnRefresh: true,
         anticipatePin: 1,
-        snap: 1 / (sections.length - 1),
+        snap: 1 / (cards.length - 1),
         touch: true 
       }
     });

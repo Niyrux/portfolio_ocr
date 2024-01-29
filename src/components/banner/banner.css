@@ -1,0 +1,24 @@
+.container-banner, .container-banner div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-banner {
+    padding:50px;
+    background-color: black;
+    color: white;
+    height:50vh
+}
+
+.container-banner h1 {
+    font-weight:800;
+    text-transform: uppercase;
+    font-size:50px
+}
+
+.container-banner p {
+    text-align: center;
+    max-width: 500px;
+}

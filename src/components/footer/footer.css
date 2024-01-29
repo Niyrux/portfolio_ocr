@@ -1,0 +1,24 @@
+.container-footer {
+    display: flex;
+    flex-direction:column;
+}
+
+.container-footer .container-logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top:20px
+}
+
+.container-footer .container-logo img {
+    max-width: 30px;
+}
+
+.container-footer .date {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    scroll-behavior: smooth;
+}

@@ -8,6 +8,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function Cardcontainer() {
+  
   useGSAP(() => {
     let cards = gsap.utils.toArray(".card");
 
@@ -21,14 +22,15 @@ function Cardcontainer() {
         invalidateOnRefresh: true,
         anticipatePin: 1,
         snap: 1 / (cards.length - 1),
-        touch: true 
+        touch: true,
+        end: () => 1000 *  cards.length - 1,
       }
     });
   });
 
 
   return (
-    <div className="containerCard">
+    <div className="containerCard" id="propos">
       <Card
         title="Card 1"
         description="Description for Card 1"

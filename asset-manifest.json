@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio_ocr/static/css/main.2a808d1b.css",
-    "main.js": "/portfolio_ocr/static/js/main.03de9a25.js",
+    "main.css": "/portfolio_ocr/static/css/main.810c88b6.css",
+    "main.js": "/portfolio_ocr/static/js/main.63e53093.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio_ocr/static/js/787.7da95b79.chunk.js",
+    "static/media/wordpress-logo.png": "/portfolio_ocr/static/media/wordpress-logo.6bc8733083d899c1d3d7.png",
+    "static/media/PHP-logo.png": "/portfolio_ocr/static/media/PHP-logo.a7759c068d5c9f03bebf.png",
+    "static/media/react-logo.webp": "/portfolio_ocr/static/media/react-logo.018857c736340b9b01e5.webp",
+    "static/media/JavaScript_logo.png": "/portfolio_ocr/static/media/JavaScript_logo.854d47751eb61d44ef81.png",
     "static/media/github.png": "/portfolio_ocr/static/media/github.9e094d235b4caa7c31fc.png",
+    "static/media/android-chrome-512x512.png": "/portfolio_ocr/static/media/android-chrome-512x512.1a93490a510f012ca15f.png",
     "static/media/e-mail.png": "/portfolio_ocr/static/media/e-mail.9d4fb065e6679439a9a3.png",
-    "static/media/loger.png": "/portfolio_ocr/static/media/loger.e4870ece2cd769631277.png",
     "index.html": "/portfolio_ocr/index.html",
-    "main.2a808d1b.css.map": "/portfolio_ocr/static/css/main.2a808d1b.css.map",
-    "main.03de9a25.js.map": "/portfolio_ocr/static/js/main.03de9a25.js.map",
+    "main.810c88b6.css.map": "/portfolio_ocr/static/css/main.810c88b6.css.map",
+    "main.63e53093.js.map": "/portfolio_ocr/static/js/main.63e53093.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio_ocr/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a808d1b.css",
-    "static/js/main.03de9a25.js"
+    "static/css/main.810c88b6.css",
+    "static/js/main.63e53093.js"
   ]
 }

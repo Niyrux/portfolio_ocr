@@ -4,6 +4,7 @@ import "./style.css";
 import gsap from "gsap"; 
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import logo from "../header/android-chrome-512x512.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,55 +18,55 @@ function Cardcontainer() {
       ease: "none", 
       scrollTrigger: {
         trigger: ".containerCard",
+        start: "top+=50% center", 
         pin: true,
         scrub: true,
         invalidateOnRefresh: true,
         anticipatePin: 1,
         snap: 1 / (cards.length - 1),
         touch: true,
-        end: () => 1000 *  cards.length - 1,
       }
     });
   });
 
 
   return (
-    <div className="containerCard" id="propos">
+    <div className="containerCard" id="projets">
       <Card
-        title="Card 1"
-        description="Description for Card 1"
-        img="https://example.com/image1.jpg"  
-        link="https://example.com"
+        title="Créez une page web dynamique avec JavaScript"
+        description="Utilisation de javascript vanilla avec une api pour connecté déconnecte un utilisateur avec création de projet / suppression"
+        img="https://upload.wikimedia.org/wikipedia/fr/0/0d/Logo_OpenClassrooms.png"  
+        link="https://github.com/Niyrux/test-sophie"
       />
       <Card
-        title="Card 2"
-        description="Description for Card 2"
-        img="https://example.com/image2.jpg"  
-        link="https://example.com"
+        title="Optimisez le référencement d'un site"
+        description="Utilisation des balises meta, du rich snippet et de waves, optimisation des performances"
+        img="https://upload.wikimedia.org/wikipedia/fr/0/0d/Logo_OpenClassrooms.png"  
+        link="https://github.com/Niyrux/Nina"
       />
       <Card
-        title="Card 3"
-        description="Description for Card 3"
-        img="https://example.com/image3.jpg"  
-        link="https://example.com"
+        title="Débuggez le site d'une agence"
+        description="Utilisation des tests unitaire, correction des bugs grâce à react développeur tools et la console"
+        img="https://upload.wikimedia.org/wikipedia/fr/0/0d/Logo_OpenClassrooms.png"  
+        link="https://github.com/Niyrux/debbug"
       />
       <Card
-        title="Card 3"
-        description="Description for Card 3"
-        img="https://example.com/image3.jpg"  
-        link="https://example.com"
+        title="Prochainement"
+        description=""
+        img={logo}  
+        link=""
       />
       <Card
-        title="Card 3"
-        description="Description for Card 3"
-        img="https://example.com/image3.jpg"  
-        link="https://example.com"
+        title="Com'Sud"
+        description="Refonte du site com'sud avec wordpress et avec le builder elementor"
+        img="https://comsud.fr/wp-content/uploads/2023/03/logo-comsud-header.svg"  
+        link="https://comsud.fr/"
       />
       <Card
-        title="Card 3"
-        description="Description for Card 3"
-        img="https://example.com/image3.jpg"  
-        link="https://example.com"
+        title="Collection gourmet"
+        description="Confection d'un e-commerce avec woocommerce"
+        img="https://collectiongourmetstore.fr/wp-content/uploads/2023/01/collection-gourmet-logo.png"  
+        link="https://collectiongourmetstore.fr/"
       />
     </div>
   );

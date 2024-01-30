@@ -1,0 +1,13 @@
+.Compcontainer {
+    background: black;
+    display: flex;
+    gap: 0 50px;
+    padding: 50px ;
+    justify-content: center;
+}
+
+.comp-text h2{
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+}

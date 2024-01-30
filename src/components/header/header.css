@@ -1,8 +1,10 @@
 .container-header {
-    max-width: 1366px;
     margin: auto;
     padding: 0 50px;
     position: sticky;
+    top: 0;
+    z-index: 100000;
+    background-color: black;
 }
 
 .HeaderResp {
@@ -27,7 +29,8 @@
     .menu {
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        gap: 0 30px;
+        justify-content: flex-end;
     }
 
     .Header img{

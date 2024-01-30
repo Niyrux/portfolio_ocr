@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import Image from "./menu.png"
-import Loger from './loger.png'
+import Loger from './android-chrome-512x512.png'
 
 function Header() {
   const [visible, setVisible] = useState(false);
@@ -13,13 +13,14 @@ function Header() {
   return (
     <div className="container-header">
       <div className="Header">
-        <a href="#accueil">
-            <img src={Loger} alt="" />
-        </a>
+        <div>
+            <img src={Loger} alt="logo" />
+        </div>
         <div className="menu">
             <a href="#propos">À propos</a>
             <a href="#projets">Mes projets</a>
-            <a href="#contact">Contact</a>
+            <a href="#Competences">Compétences</a>
+            <a href="#contact">Réseaux</a>
         </div>
        
       </div>
@@ -27,7 +28,8 @@ function Header() {
         <div>
           <a href="#propos">À propos</a>
           <a href="#projets">Mes projets</a>
-          <a href="#contact">Contact</a>
+          <a href="#Competences">Compétences</a>
+          <a href="#contact">Réseaux</a>
         </div>
         <div>
          

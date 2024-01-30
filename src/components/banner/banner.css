@@ -9,7 +9,8 @@
     padding:50px;
     background-color: black;
     color: white;
-    height:50vh
+    height:50vh;
+    position: relative;
 }
 
 .container-banner h1 {
@@ -21,4 +22,14 @@
 .container-banner p {
     text-align: center;
     max-width: 500px;
+}
+#tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 0; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
 }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_ocr/static/css/main.558eb06e.css",
-    "main.js": "/portfolio_ocr/static/js/main.742f7312.js",
+    "main.js": "/portfolio_ocr/static/js/main.c5ba0136.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio_ocr/static/js/787.7da95b79.chunk.js",
     "static/media/wordpress-logo.png": "/portfolio_ocr/static/media/wordpress-logo.6bc8733083d899c1d3d7.png",
     "static/media/PHP-logo.png": "/portfolio_ocr/static/media/PHP-logo.a7759c068d5c9f03bebf.png",
@@ -13,11 +13,11 @@
     "index.html": "/portfolio_ocr/index.html",
     "static/media/menu.svg": "/portfolio_ocr/static/media/menu.9a1f0c7e66d5b0757d554985287566e8.svg",
     "main.558eb06e.css.map": "/portfolio_ocr/static/css/main.558eb06e.css.map",
-    "main.742f7312.js.map": "/portfolio_ocr/static/js/main.742f7312.js.map",
+    "main.c5ba0136.js.map": "/portfolio_ocr/static/js/main.c5ba0136.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio_ocr/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.558eb06e.css",
-    "static/js/main.742f7312.js"
+    "static/js/main.c5ba0136.js"
   ]
 }

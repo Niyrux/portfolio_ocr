@@ -50,12 +50,7 @@ function Cardcontainer() {
         img="https://upload.wikimedia.org/wikipedia/fr/0/0d/Logo_OpenClassrooms.png"  
         link="https://github.com/Niyrux/debbug"
       />
-      <Card
-        title="Prochainement"
-        description=""
-        img={logo}  
-        link=""
-      />
+    
       <Card
         title="Com'Sud"
         description="Refonte du site com'sud avec wordpress et avec le builder elementor"

@@ -7,7 +7,7 @@
     background-color: black;
 }
 
-.HeaderResp {
+.HeaderResp , .Logo-resp {
     display: none;
 }
 
@@ -42,4 +42,39 @@
         text-transform: uppercase;
         font-weight: bold;
     }
+@media screen and (max-width: 1024px) {
+    .img {
+        display: flex;
+    }
+    .Header {
+        display: none;
+    }
+    .Logo-resp img:not(.img){
+        width:100px
+    }
 
+    .Logo-resp {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .HeaderResp {
+        position: absolute;
+        top: 105px;
+        left: 0;
+        right: 0;
+        height: 200px;
+        background-color: black;
+    }
+    .HeaderResp div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px 0;
+    }
+    .HeaderResp div a {
+        text-decoration: none;
+    }
+}

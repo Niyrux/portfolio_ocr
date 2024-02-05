@@ -20,8 +20,8 @@
     content: "";
     position: absolute;
     z-index: -1;
-    top: 0;
-    right: 0;
+    top: -50px;
+    right: -50px;
     height: 32px;
     width: 32px;
     border-radius: 32px;
@@ -39,4 +39,24 @@
 
   .cardComp:hover {
     color: white;
+  }
+
+  @media screen and (max-width:1024px){
+    .cardComp {
+      width:45%;
+    }
+    .cardComp:hover:before{
+      transform: scale(60);
+  
+  
+    }
+    .cardComp:before {
+      transition: transform 1s ease-out;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .cardComp {
+      width:100%;
+    }
   }

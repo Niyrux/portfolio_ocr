@@ -11,3 +11,10 @@
    text-transform: uppercase;
    font-weight: bold;
 }
+
+@media screen and (max-width:1024px){
+    .Compcontainer {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

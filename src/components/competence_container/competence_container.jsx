@@ -5,7 +5,6 @@ import LogoJavascript from "./JavaScript_logo.png"
 import LogoWordpress from "./wordpress-logo.png"
 import LogoReact from "./react-logo.webp"
 import LogoPHP from "./PHP-logo.png"
-import Formation from "../formation/formation";
 
 function Compcontainer() {
   
@@ -37,7 +36,7 @@ function Compcontainer() {
         alt="logo React"  
       />
     </div>
-    <Formation/>
+    
     </div>
   );
 }

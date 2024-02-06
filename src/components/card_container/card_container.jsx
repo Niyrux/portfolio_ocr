@@ -1,33 +1,13 @@
 import React from "react";
 import Card from "../card_projet/card";
 import "./style.css";
-import gsap from "gsap"; 
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import logo from "../header/android-chrome-512x512.png"
 
-gsap.registerPlugin(ScrollTrigger);
 
 function Cardcontainer() {
   
-  useGSAP(() => {
-    let cards = gsap.utils.toArray(".card");
+ 
+  
 
-    gsap.to(cards, {
-      xPercent: -100 * (cards.length - 1),
-      ease: "none", 
-      scrollTrigger: {
-        trigger: ".containerCard",
-        start: "top+=50% center", 
-        pin: true,
-        scrub: true,
-        invalidateOnRefresh: true,
-        anticipatePin: 1,
-        snap: 1 / (cards.length - 1),
-        touch: true,
-      }
-    });
-  });
 
 
   return (

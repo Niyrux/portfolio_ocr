@@ -2,6 +2,7 @@ import React from "react";
 import "./banner.css";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import Formation from "../formation/formation";
 
 function Banner() {
   const particlesInit = async (main) => {
@@ -94,6 +95,7 @@ function Banner() {
           créativité avec mes compétences techniques pour donner vie à des sites
           web élégants et fonctionnels.
         </p>
+        <Formation/>
       </div>
     </div>
   );

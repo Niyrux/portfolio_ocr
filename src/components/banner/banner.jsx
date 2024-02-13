@@ -9,7 +9,7 @@ function Banner() {
     await loadFull(main);
   };
 
-  const particlesLoaded = (container) => {};
+  const particlesLoaded = () => { };
 
   return (
     <div className="container-banner" id="propos">
@@ -18,7 +18,7 @@ function Banner() {
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-          fullScreen:{enable:false},
+          fullScreen: { enable: false },
           fpsLimit: 30,
           interactivity: {
             events: {
@@ -95,7 +95,7 @@ function Banner() {
           créativité avec mes compétences techniques pour donner vie à des sites
           web élégants et fonctionnels.
         </p>
-        <Formation/>
+        <Formation />
       </div>
     </div>
   );
